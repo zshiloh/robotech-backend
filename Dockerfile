@@ -1,5 +1,5 @@
 # Imagen base con JDK 17 (no 21)
-FROM openjdk:21-jdk-slim
+FROM openjdk:17-jdk-slim
 
 # Directorio de trabajo dentro del contenedor
 WORKDIR /app
