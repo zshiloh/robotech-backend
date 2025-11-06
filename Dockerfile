@@ -1,5 +1,5 @@
 # Imagen base de Java
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 
 # Copia los archivos del proyecto
 COPY . /app
