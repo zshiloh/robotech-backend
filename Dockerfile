@@ -14,4 +14,4 @@ RUN chmod +x mvnw && ./mvnw clean package -DskipTests
 EXPOSE 8080
 
 # Comando para ejecutar la app
-CMD ["java", "-jar", "target/autoland-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/robotech-api-0.0.1-SNAPSHOT"]
