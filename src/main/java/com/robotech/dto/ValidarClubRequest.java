@@ -1,0 +1,17 @@
+package com.robotech.dto;
+
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ValidarClubRequest {
+    
+    @NotNull(message = "Debe indicar si aprueba o rechaza")
+    private Boolean aprobar;
+    
+    private String motivo;
+}
