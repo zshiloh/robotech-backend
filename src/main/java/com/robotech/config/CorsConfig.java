@@ -17,7 +17,8 @@ public class CorsConfig {
         
         // Permitir solicitudes desde el frontend
         configuration.setAllowedOrigins(Arrays.asList(
-            "https://zshiloh.github.io",   // GitHub Pages
+            "https://zshiloh.github.io",   // Dominio Base
+            "https://zshiloh.github.io/robotech-frontend/",   // Producción
             "http://localhost:5500",   // Live Server puerto 5500
             "http://localhost:5501",   // Live Server puerto 5501
             "http://localhost:5502",   // Live Server puerto 5502
